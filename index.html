@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Media Player</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
   </head>
   <body>
     <header>
-      <img src="Images/OIP.jpg" alt="Media Player Logo" height="455" />
-      <h1><strong>HTML Media Player</strong></h1>
+      <img src="Images/OIP.jpg" alt="Media Player Logo" height="355" />
+
+      <strong id="name">HTML Media Player</strong>
+
       <nav>
-        <ul>
-          <li><a target="_blank" href="audios.html">Play Audios</a></li>
-          
-        </ul>
+      <br>
+      <hr>
+      <span class="material-symbols-outlined">
+        play_circle
+      </span>
+        <a target="_blank" href="Playlist.html">Show Playlist</a>
+        
       </nav>
     </header>
     <hr />
@@ -38,11 +45,11 @@
         </p>
       </section>
       <hr />
-      <section>
-        <h2>LIBRARY</h2>
+      <section class="des">
+        
         <p>
-          Here is the list of the Library of the Audios that are
-          currently Playable on my Media Player:
+          Here is the Playlist of the Audios that are currently
+          Playable on my Media Player:
         </p>
       </section>
 
@@ -50,7 +57,10 @@
         <table>
           <thead>
             <caption>
-              Audios
+              <strong>
+                PLAYLIST
+              </strong>
+              
             </caption>
             <tr>
               <th>Sl.No</th>
@@ -82,14 +92,12 @@
           </tbody>
           <tfoot>
             <tr>
-              <td colspan="2">Total Audios:</td>
+              <td colspan="2">Total:</td>
               <td>4</td>
             </tr>
           </tfoot>
         </table>
       </section>
-      
-      
     </main>
     <hr />
     <footer>
